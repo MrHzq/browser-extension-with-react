@@ -1,8 +1,8 @@
 {
-  "name": "browser-extension-with-react",
-  "displayName": "Browser extension with react",
+  "name": "with-react",
+  "displayName": "with react",
   "version": "0.0.1",
-  "description": "browser-extension-with-react",
+  "description": "with-react",
   "author": "huangzq",
   "scripts": {
     "dev": "plasmo dev",
