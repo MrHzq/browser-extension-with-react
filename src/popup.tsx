@@ -1,3 +1,4 @@
+import icon from "data-base64:~assets/icon.png"
 import { useState } from "react"
 
 function IndexPopup() {
@@ -21,6 +22,8 @@ function IndexPopup() {
         }}>
         open tab page
       </button>
+
+      <img src={icon} style={{ width: 20, height: 20 }} />
     </div>
   )
 }
