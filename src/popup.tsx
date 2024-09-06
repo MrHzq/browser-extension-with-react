@@ -11,11 +11,7 @@ function IndexPopup() {
         flexDirection: "column",
         padding: 16
       }}>
-      <h2>Welcome to React Extension!</h2>
-      <input onChange={(e) => setData(e.target.value)} value={data} />
-      <a href="https://docs.plasmo.com" target="_blank">
-        View Docs
-      </a>
+      <h1>Welcome to IndexPopup!</h1>
     </div>
   )
 }
