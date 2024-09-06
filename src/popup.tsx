@@ -12,6 +12,15 @@ function IndexPopup() {
         padding: 16
       }}>
       <h1>Welcome to IndexPopup!</h1>
+
+      <button
+        onClick={() => {
+          chrome.tabs.create({
+            url: "./tabs/test.html"
+          })
+        }}>
+        open tab page
+      </button>
     </div>
   )
 }
